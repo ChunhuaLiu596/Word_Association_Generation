@@ -35,3 +35,19 @@ Planning before next meeting:
 1. Scrutinize the paper "Moral Association Graph."
 2. Continue to read more papers.
 3. Improve the RP. 
+4. check the gender repository
+
+
+Meeting 3: 
+
+1. We will consider the dimension of morality for words and use EMFD instead of MFD.
+2. Experiment with the code in gender one first and then extend to moral concepts.
+3. Feedback on the research proposal (RP).
+
+
+Planning for this week:
+
+1. Replicate the experiment on word association related to gender.
+2. Continue revising the research proposal based on the feedback received.
+3. Read the EMFD paper in detail.
+4. Begin small sample for the moral concept experiment if time allows and the gender experiment is successful.
