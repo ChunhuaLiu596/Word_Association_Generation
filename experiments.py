@@ -568,7 +568,6 @@ def rank():
     human_neutral = find_neutral(scores_dict['human'])
     llms_neutral = find_neutral(scores_dict['llms'])
 
-    # Display the results with rounding to 2 decimal places
     print("Human - Top 10 Most Negative:")
     for word, score in human_negative:
         print(f"{word}: {score:.2f}")
@@ -606,7 +605,6 @@ def main():
     formatter_class=argparse.RawTextHelpFormatter
     )
 
-    # Add arguments
     parser.add_argument(
         "action", 
         type=str, 
@@ -614,7 +612,6 @@ def main():
         help="Select the function to execute."
     )
 
-    # Parse arguments
     args = parser.parse_args()
 
     # Execute the selected function
@@ -627,6 +624,5 @@ def main():
     elif args.action == "rank":
         rank()
 
-# Entry point for the script
 if __name__ == "__main__":
     main()
