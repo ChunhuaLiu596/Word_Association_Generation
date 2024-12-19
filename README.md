@@ -12,7 +12,7 @@ This folder contains code related to generating Llama responses, building graphs
 | File       | Description                                                                                  |
 |--------------------|---------------------------------------------------------------------------------------------|
 | `produce.py`         | This file is used to create Llama's associations. It contains the prompting and output generation code. To run this file, you need to replace line 11 with your own Hugging Face token.           |
-| `getMoralValue.txt`| This file builds a graph based on associations and propagates moral information to the rest of the words. The results are stored to avoid repeated computations.                   |
+| `getMoralValue.py`| This file builds a graph based on associations and propagates moral information to the rest of the words. The results are stored to avoid repeated computations.                   |
 
 ## Folder: data
 This folder contains the necessary data for framework construction and experiment execution.
