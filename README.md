@@ -69,6 +69,7 @@ pip install -r requirements.txt
 
 3. **Run Key Experiments**:
    - Perform key experiments described in the paper by running `experiments.py`.
+   - The Google-News-300 W2V model can be found at the following link: [Word2Vec Google News 300](https://huggingface.co/fse/word2vec-google-news-300/tree/main).
    - For more details about the available experiments, use the following command:
      ```bash
      python experiments.py -h
