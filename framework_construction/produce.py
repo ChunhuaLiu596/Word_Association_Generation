@@ -66,7 +66,7 @@ def generate(cue_words):
                 response1, response2, response3 = words
                 responses[cue].extend([response1, response2, response3])
             else:
-                responses[cue].extend(cleaned_response)
+                useless[cue].extend(cleaned_response)
     return responses,useless
 
 
