@@ -1,7 +1,7 @@
 # Comparing Moral Values in Western English-speaking societies and LLMs with Word Associations
 
 ## Overview
-This repository contains the prompts, code, and data for Llama's word associations used in the paper *Comparing Moral Values in Western English-Speaking Societies and LLMs Using Word Associations*. (Add link after publish)
+This repository contains the prompts, code, and data for Llama's word associations used in the ACL 2025 (main) paper *Comparing Moral Values in Western English-Speaking Societies and LLMs Using Word Associations*. https://aclanthology.org/2025.acl-long.177.pdf
 
 ---
 
@@ -82,3 +82,28 @@ pip install -r requirements.txt
      ```bash
      python experiments.py -h
      ```
+
+## Cite our paper
+```
+@inproceedings{xiang-etal-2025-comparing,
+    title = "Comparing Moral Values in {W}estern {E}nglish-speaking societies and {LLM}s with Word Associations",
+    author = "Xiang, Chaoyi  and
+      Liu, Chunhua  and
+      De Deyne, Simon  and
+      Frermann, Lea",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-long.177/",
+    doi = "10.18653/v1/2025.acl-long.177",
+    pages = "3521--3536",
+    ISBN = "979-8-89176-251-0"
+}
+```
+
